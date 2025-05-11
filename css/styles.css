@@ -110,6 +110,10 @@ body {
     100% { transform: translateY(0px); }
 }
 
+#about {
+  scroll-margin-top: 220px; /* Extra ruimte zodat de sectie niet overlapt met de navbar of knop */
+}
+
 /* Timeline */
 .timeline {
     position: relative;
