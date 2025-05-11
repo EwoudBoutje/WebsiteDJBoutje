@@ -1,36 +1,52 @@
 # DJ Boutje Website
 
-This is a static website for DJ Boutje, built with Bootstrap 5 and custom CSS/JavaScript.
+Welkom op de repository van de officiële website van DJ Boutje!
 
-## Features
-- Responsive design with a modern dark theme and neon accents.
-- Sticky navbar with links to all sections.
-- Hero section with a Bootstrap carousel and call-to-action button.
-- About section with a two-column layout.
-- Gallery section with a responsive grid.
-- References section using a Bootstrap list group.
-- Contact section with a form and social media links.
+Deze website is gebouwd met HTML, Bootstrap 5, custom CSS en JavaScript. De site is geoptimaliseerd voor SEO, mobiel gebruik en snelle laadtijden. Je kunt de site live bekijken op [dj-boutje.netlify.app](https://dj-boutje.netlify.app).
 
-## Installation
-1. Clone the repository or download the files.
-2. Open `index.html` in your browser to view the website.
+## 🎵 Features
+- **Modern design:** Donker thema met gele accenten, volledig responsive.
+- **Sticky navbar:** Altijd toegang tot alle secties.
+- **Hero carousel:** Met call-to-action knop.
+- **Over mij:** Introductie van DJ Boutje met foto en ervaring.
+- **Referenties:** Overzicht van grote evenementen waar DJ Boutje draaide.
+- **Contactformulier:** Direct boeken via Netlify Forms, zonder server of externe dienst.
+- **Bedankpagina:** Na het boeken zie je een nette bevestiging.
+- **Automatische e-mailnotificatie:** Je ontvangt direct een mail bij een nieuwe boeking.
+- **SEO-optimalisatie:** Inclusief meta tags, Open Graph, sitemap.xml en robots.txt.
 
-## Folder Structure
+## 📂 Bestanden & structuur
 ```
 WebsiteDJBoutje/
-├── index.html
+├── index.html           # Hoofdpagina
+├── success.html         # Bedankpagina na boeking
+├── _redirects           # Netlify routing voor success.html
+├── sitemap.xml          # Sitemap voor zoekmachines
+├── robots.txt           # Crawling instructies
 ├── css/
-│   └── styles.css
+│   └── styles.css       # Custom styling
 ├── js/
-│   └── scripts.js
-└── images/
-    ├── logo.png
-    ├── I-Joeplala2024.jpg
-    ├── jeugdhuis de vlinder.jpg
-    ├── November To Remember 2024_1.jpg
-    └── November To Remember 2024_2.jpg
+│   └── scripts.js       # Animaties en interactie
+├── images/              # Afbeeldingen en logo
+│   └── ...
+└── README.md            # Deze uitleg
 ```
 
-## Notes
-- Ensure all images are placed in the `images/` folder.
-- No build process is required; this is a static website.
+## 🚀 Zelf gebruiken of aanpassen
+1. **Clone deze repo** of download de bestanden.
+2. **Open `index.html`** in je browser om lokaal te bekijken.
+3. **Wil je het formulier gebruiken?**
+   - Deploy de site op [Netlify](https://netlify.com) voor automatische verwerking van boekingen.
+   - Zet bij Netlify > Site configuration > Notifications een e-mailnotificatie aan voor nieuwe inzendingen.
+   - Je ontvangt dan direct een mail bij elke nieuwe boeking.
+
+## ℹ️ Belangrijk
+- Alle afbeeldingen staan in de map `images/`.
+- Geen build-stap nodig: alles is statisch en direct te gebruiken.
+- De site werkt perfect op mobiel, tablet en desktop.
+- SEO is geoptimaliseerd voor Google en sociale media.
+
+## 📧 Contact
+Voor vragen of boekingen: [djboutje@gmail.com](mailto:djboutje@gmail.com)
+
+Veel plezier met de website!
